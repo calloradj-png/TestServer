@@ -1,0 +1,11 @@
+{
+  "id": "test_project",
+  "name": "Test Project",
+  "path": "projects/test_project",
+  "createdAt": 1786455903730,
+  "updatedAt": 1787059025965,
+  "clientRepo": "calloradj-png/TestGame",
+  "lastPublishedAt": 1787040213215,
+  "publishVersion": 11,
+  "serverRepo": "calloradj-png/TestServer"
+}

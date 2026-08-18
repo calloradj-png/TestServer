@@ -1,0 +1,426 @@
+{
+  "id": "map_main",
+  "name": "Main Scene",
+  "version": 1,
+  "environment": {
+    "backgroundColor": "#a3a3ff",
+    "skyColor": "#a3a3ff",
+    "ambientColor": "#d2a5d2",
+    "ambientIntensity": 1.3,
+    "timeOfDay": 14,
+    "azimuth": 300,
+    "sunColor": "#fff0d7",
+    "sunIntensity": 0.8,
+    "shadowsEnabled": true,
+    "shadowQuality": 1024,
+    "fogEnabled": false,
+    "fogColor": "#feb7ff",
+    "fogNear": 0,
+    "fogFar": 100,
+    "bloomEnabled": true,
+    "bloomIntensity": 1.8,
+    "bloomRadius": 28,
+    "colorCorrections": [
+      {
+        "id": "cc_1786960473038",
+        "name": "ColorCorrection",
+        "enabled": true,
+        "brightness": -0.12,
+        "contrast": 0.1,
+        "saturation": 0.2,
+        "tintColor": "#ffffff"
+      }
+    ],
+    "bloomThreshold": 0,
+    "bloomTintColor": "#ffffff",
+    "shadowBias": 0.0009,
+    "shadowNormalBias": 0,
+    "shadowBlur": 14,
+    "shadowDistance": 250,
+    "shadowDepthScale": 100,
+    "shadowDarkness": 0
+  },
+  "lighting": {
+    "timeOfDay": 14,
+    "azimuth": 300,
+    "sunColor": "#fff0d7",
+    "sunIntensity": 0.8,
+    "shadowsEnabled": true,
+    "shadowQuality": 1024,
+    "shadowBias": 0.0009,
+    "shadowNormalBias": 0,
+    "shadowBlur": 14,
+    "shadowDistance": 250,
+    "shadowDepthScale": 100,
+    "shadowDarkness": 0,
+    "ambientColor": "#d2a5d2",
+    "ambientIntensity": 1.3,
+    "skyColor": "#a3a3ff",
+    "backgroundColor": "#a3a3ff",
+    "fogEnabled": false,
+    "fogColor": "#feb7ff",
+    "fogNear": 0,
+    "fogFar": 100,
+    "bloomEnabled": true,
+    "bloomIntensity": 1.8,
+    "bloomRadius": 28,
+    "bloomThreshold": 0,
+    "bloomTintColor": "#ffffff",
+    "colorCorrections": [
+      {
+        "id": "cc_1786960473038",
+        "name": "ColorCorrection",
+        "enabled": true,
+        "brightness": -0.12,
+        "contrast": 0.1,
+        "saturation": 0.2,
+        "tintColor": "#ffffff"
+      }
+    ]
+  },
+  "objects": [
+    {
+      "id": "obj_1786961788117",
+      "name": "Cube",
+      "type": "cube",
+      "position": {
+        "x": 0.25,
+        "y": -0.625,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 20.5,
+        "y": 1,
+        "z": 20
+      },
+      "color": "#58be1d",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal"
+    },
+    {
+      "id": "obj_1787040214105_1828",
+      "name": "Cover",
+      "type": "cube",
+      "position": {
+        "x": 0,
+        "y": -0.567,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 4,
+        "y": 1.047,
+        "z": 20
+      },
+      "color": "#a83c3c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal"
+    },
+    {
+      "id": "obj_1787048537417",
+      "name": "3DModel",
+      "type": "model",
+      "position": {
+        "x": -6,
+        "y": -0.125,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "color": "#3b82f6",
+      "castShadow": true,
+      "receiveShadow": true,
+      "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+      "children": [
+        {
+          "id": "mesh_1787048541068_0_loeo",
+          "name": "Handle1",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "Handle1",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        {
+          "id": "mesh_1787048541068_1_5pie",
+          "name": "UpperTorso",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "UpperTorso",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        {
+          "id": "mesh_1787048541068_2_5p6r",
+          "name": "RightFoot",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "RightFoot",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "material": "model_original",
+          "color": "#ffffff"
+        },
+        {
+          "id": "mesh_1787048541068_3_ydq5",
+          "name": "LeftFoot",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "LeftFoot",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        {
+          "id": "mesh_1787048541068_4_0zj9",
+          "name": "LeftUpperArm",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "LeftUpperArm",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "color": "#ffffff",
+          "material": "model_original"
+        },
+        {
+          "id": "mesh_1787048541068_5_n24a",
+          "name": "Head",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "Head",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "material": "model_original",
+          "color": "#ffffff"
+        },
+        {
+          "id": "mesh_1787048541068_6_qukn",
+          "name": "RightUpperArm",
+          "type": "mesh",
+          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+          "meshPart": "RightUpperArm",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritPosition": true,
+          "inheritRotation": true,
+          "inheritScale": true,
+          "castShadow": true,
+          "receiveShadow": true,
+          "material": "model_original",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "obj_1787050715654",
+      "name": "CubeCenter",
+      "type": "cube",
+      "position": {
+        "x": 0,
+        "y": 0.457,
+        "z": -0.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "color": "#ff8400",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "neon"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat_1786870197328",
+      "name": "Material 1",
+      "baseType": "smooth_plastic",
+      "color": "#ffffff",
+      "albedoTextureUrl": "http://localhost:3001/assets-files/test_project/textures/Frame45.png",
+      "tiled": true,
+      "tileSize": 0.6,
+      "roughness": 1
+    },
+    {
+      "id": "mat_1786873199021",
+      "name": "Material 2",
+      "baseType": "smooth_plastic",
+      "color": "#ffffff",
+      "albedoTextureUrl": "http://localhost:3001/assets-files/test_project/textures/Frame45.png",
+      "tiled": false
+    },
+    {
+      "id": "stud",
+      "name": "Stud",
+      "baseType": "smooth_plastic",
+      "color": "#94a3b8",
+      "albedoTextureUrl": "/builtin-assets/stud_albedo.png",
+      "normalTextureUrl": "/builtin-assets/stud_normal.png",
+      "tiled": true,
+      "tileSize": 0.5,
+      "normalIntensity": 0.1,
+      "showAlbedo": true,
+      "albedoIntensity": 1
+    },
+    {
+      "id": "stud_universal",
+      "name": "Stud Universal",
+      "baseType": "smooth_plastic",
+      "color": "#94a3b8",
+      "albedoTextureUrl": "/builtin-assets/stud_un_albedo.png",
+      "normalTextureUrl": "/builtin-assets/stud_un_normal.png",
+      "tiled": true,
+      "tileSize": 1,
+      "normalIntensity": 0.7,
+      "showAlbedo": true,
+      "albedoIntensity": 0.8,
+      "brightness": 2,
+      "roughness": 0.85
+    }
+  ]
+}
