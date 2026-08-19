@@ -101,11 +101,12 @@
       "color": "#58be1d",
       "castShadow": true,
       "receiveShadow": true,
-      "material": "stud_universal"
+      "material": "stud_universal",
+      "invertNormals": false
     },
     {
       "id": "obj_1787040214105_1828",
-      "name": "Cover",
+      "name": "Cube",
       "type": "cube",
       "position": {
         "x": 0,
@@ -125,16 +126,18 @@
       "color": "#a83c3c",
       "castShadow": true,
       "receiveShadow": true,
-      "material": "stud_universal"
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
     },
     {
-      "id": "obj_1787048537417",
-      "name": "3DModel",
-      "type": "model",
+      "id": "obj_1787142597412",
+      "name": "Cube22",
+      "type": "cube",
       "position": {
-        "x": -6,
-        "y": -0.125,
-        "z": 0
+        "x": 0,
+        "y": 3.5,
+        "z": -0.95
       },
       "rotation": {
         "x": 0,
@@ -143,221 +146,23 @@
       },
       "scale": {
         "x": 1,
-        "y": 1,
-        "z": 1
+        "y": 1.05,
+        "z": 6.5
       },
       "color": "#3b82f6",
       "castShadow": true,
       "receiveShadow": true,
-      "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-      "children": [
-        {
-          "id": "mesh_1787048541068_0_loeo",
-          "name": "Handle1",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "Handle1",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true
-        },
-        {
-          "id": "mesh_1787048541068_1_5pie",
-          "name": "UpperTorso",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "UpperTorso",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true
-        },
-        {
-          "id": "mesh_1787048541068_2_5p6r",
-          "name": "RightFoot",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "RightFoot",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true,
-          "material": "model_original",
-          "color": "#ffffff"
-        },
-        {
-          "id": "mesh_1787048541068_3_ydq5",
-          "name": "LeftFoot",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "LeftFoot",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true
-        },
-        {
-          "id": "mesh_1787048541068_4_0zj9",
-          "name": "LeftUpperArm",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "LeftUpperArm",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true,
-          "color": "#ffffff",
-          "material": "model_original"
-        },
-        {
-          "id": "mesh_1787048541068_5_n24a",
-          "name": "Head",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "Head",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true,
-          "material": "model_original",
-          "color": "#ffffff"
-        },
-        {
-          "id": "mesh_1787048541068_6_qukn",
-          "name": "RightUpperArm",
-          "type": "mesh",
-          "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
-          "meshPart": "RightUpperArm",
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "inheritPosition": true,
-          "inheritRotation": true,
-          "inheritScale": true,
-          "castShadow": true,
-          "receiveShadow": true,
-          "material": "model_original",
-          "color": "#ffffff"
-        }
-      ]
+      "anchored": true,
+      "canCollide": true
     },
     {
-      "id": "obj_1787050715654",
-      "name": "CubeCenter",
+      "id": "obj_1787147068467_2550",
+      "name": "Cube34",
       "type": "cube",
       "position": {
-        "x": 0,
-        "y": 0.457,
-        "z": -0.5
+        "x": -5.5,
+        "y": 5,
+        "z": 0.55
       },
       "rotation": {
         "x": 0,
@@ -366,13 +171,14 @@
       },
       "scale": {
         "x": 1,
-        "y": 1,
-        "z": 1
+        "y": 0.05,
+        "z": 3.5
       },
-      "color": "#ff8400",
+      "color": "#3b82f6",
       "castShadow": true,
       "receiveShadow": true,
-      "material": "neon"
+      "anchored": true,
+      "canCollide": true
     }
   ],
   "materials": [
