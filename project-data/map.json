@@ -94,11 +94,11 @@
         "z": 0
       },
       "scale": {
-        "x": 20.5,
+        "x": 70,
         "y": 1,
-        "z": 20
+        "z": 70
       },
-      "color": "#58be1d",
+      "color": "#353535",
       "castShadow": true,
       "receiveShadow": true,
       "material": "stud_universal",
@@ -109,8 +109,232 @@
       "name": "Cube",
       "type": "cube",
       "position": {
+        "x": 0.25,
+        "y": 0.399,
+        "z": -24.75
+      },
+      "rotation": {
         "x": 0,
-        "y": -0.567,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 50,
+        "y": 1.047,
+        "z": 0.5
+      },
+      "color": "#a83c3c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
+      "id": "obj_1787291624940_1403",
+      "name": "Cube Copy",
+      "type": "cube",
+      "position": {
+        "x": 6,
+        "y": 0.875,
+        "z": -11
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#ab3030",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true,
+      "anchored": false,
+      "restitution": 0,
+      "mass": 5,
+      "friction": 1
+    },
+    {
+      "id": "obj_1787293984977_8566",
+      "name": "Cube Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": 6,
+        "y": 2.875,
+        "z": -11
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#ffa200",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true,
+      "anchored": false,
+      "restitution": 0,
+      "mass": 1,
+      "friction": 1
+    },
+    {
+      "id": "obj_1787293988289_2265",
+      "name": "Cube Copy Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": 6,
+        "y": 4.875,
+        "z": -11
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#53ff0f",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true,
+      "anchored": false,
+      "restitution": 0,
+      "mass": 1,
+      "friction": 1
+    },
+    {
+      "id": "obj_1787293991489_4727",
+      "name": "Cube Copy Copy Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": 6,
+        "y": 6.875,
+        "z": -11
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#595ab2",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true,
+      "anchored": false,
+      "restitution": 0,
+      "mass": 1,
+      "friction": 1
+    },
+    {
+      "id": "obj_1787290915480_2880",
+      "name": "Cube Copy",
+      "type": "cube",
+      "position": {
+        "x": 0.25,
+        "y": 0.399,
+        "z": 24.75
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 50,
+        "y": 1.047,
+        "z": 0.5
+      },
+      "color": "#a83c3c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
+      "id": "obj_1787290921930_6287",
+      "name": "Cube Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": -24.495,
+        "y": 0.399,
+        "z": -0.005
+      },
+      "rotation": {
+        "x": 0,
+        "y": -1.571,
+        "z": 0
+      },
+      "scale": {
+        "x": 50,
+        "y": 1.047,
+        "z": 0.5
+      },
+      "color": "#a83c3c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
+      "id": "obj_1787290939277_9357",
+      "name": "Cube Copy Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": 24.995,
+        "y": 0.399,
+        "z": 0.005
+      },
+      "rotation": {
+        "x": 0,
+        "y": -1.571,
+        "z": 0
+      },
+      "scale": {
+        "x": 50,
+        "y": 1.047,
+        "z": 0.5
+      },
+      "color": "#a83c3c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
+      "id": "obj_1787286291881_9753",
+      "name": "Cube Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": -10.25,
+        "y": 2.433,
         "z": 0
       },
       "rotation": {
@@ -119,11 +343,11 @@
         "z": 0
       },
       "scale": {
-        "x": 4,
-        "y": 1.047,
+        "x": 0.5,
+        "y": 7.047,
         "z": 20
       },
-      "color": "#a83c3c",
+      "color": "#5d5d5d",
       "castShadow": true,
       "receiveShadow": true,
       "material": "stud_universal",
@@ -135,7 +359,7 @@
       "name": "Cube22",
       "type": "cube",
       "position": {
-        "x": 0,
+        "x": -0.068,
         "y": 3.5,
         "z": -0.95
       },
@@ -147,22 +371,23 @@
       "scale": {
         "x": 1,
         "y": 1.05,
-        "z": 6.5
+        "z": 2.5
       },
-      "color": "#3b82f6",
+      "color": "#ce4cb2",
       "castShadow": true,
       "receiveShadow": true,
       "anchored": true,
-      "canCollide": true
+      "canCollide": true,
+      "material": "neon"
     },
     {
-      "id": "obj_1787147068467_2550",
-      "name": "Cube34",
-      "type": "cube",
+      "id": "obj_1787288831668",
+      "name": "Sphere22",
+      "type": "sphere",
       "position": {
-        "x": -5.5,
-        "y": 5,
-        "z": 0.55
+        "x": 6,
+        "y": 5.525,
+        "z": -3
       },
       "rotation": {
         "x": 0,
@@ -170,15 +395,102 @@
         "z": 0
       },
       "scale": {
-        "x": 1,
-        "y": 0.05,
-        "z": 3.5
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "color": "#3bf641",
+      "castShadow": true,
+      "receiveShadow": true,
+      "anchored": false,
+      "canCollide": true,
+      "mass": 1,
+      "restitution": 1,
+      "friction": 0,
+      "material": "stud_universal",
+      "children": [
+        {
+          "id": "obj_1787301497970",
+          "name": "Mesh",
+          "type": "mesh",
+          "position": {
+            "x": -1.6,
+            "y": 0.5,
+            "z": 0.9
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "color": "#ffffff",
+          "material": "model_original",
+          "castShadow": true,
+          "receiveShadow": true,
+          "anchored": true,
+          "canCollide": false
+        }
+      ]
+    },
+    {
+      "id": "obj_1787290311602",
+      "name": "Sphere",
+      "type": "sphere",
+      "position": {
+        "x": 1.1,
+        "y": 0.875,
+        "z": -7.9
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "color": "#ff8c00",
+      "castShadow": true,
+      "receiveShadow": true,
+      "anchored": false,
+      "canCollide": true,
+      "material": "neon"
+    },
+    {
+      "id": "obj_1787290758411",
+      "name": "Cylinder",
+      "type": "cylinder",
+      "position": {
+        "x": -1.6,
+        "y": 0.25,
+        "z": -2.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2.747,
+        "y": 0.5,
+        "z": 2.747
       },
       "color": "#3b82f6",
       "castShadow": true,
       "receiveShadow": true,
-      "anchored": true,
-      "canCollide": true
+      "anchored": false,
+      "canCollide": true,
+      "restitution": 0,
+      "friction": 0,
+      "mass": 0.1,
+      "material": "stud_universal"
     }
   ],
   "materials": [

@@ -11,6 +11,10 @@ const boulder = World.spawnObject({
     mass: 5.0,
     physicsOwner: 'server',
 });
+const sphere = World.findObjectByName("Sphere22");
+if (sphere) {
+    sphere.physicsOwner = 'server';
+}
 // Каждые 3 секунды проверяем: если куб упал (y < 6), телепортируем его наверх
 setInterval(() => {
     if (boulder) {
