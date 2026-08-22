@@ -5,8 +5,8 @@
   "createdAt": 1786455903730,
   "updatedAt": 1787060261603,
   "clientRepo": "calloradj-png/TestGame",
-  "lastPublishedAt": 1787307405347,
-  "publishVersion": 18,
+  "lastPublishedAt": 1787393834599,
+  "publishVersion": 19,
   "serverRepo": "calloradj-png/TestServer",
   "serverUrl": "wss://testserver-zwsy.onrender.com"
 }

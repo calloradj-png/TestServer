@@ -356,6 +356,58 @@
       "canCollide": true
     },
     {
+      "id": "obj_1787396485690_2416",
+      "name": "Cube Copy Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": -13.25,
+        "y": 5.741,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.5,
+        "y": 0.432,
+        "z": 20
+      },
+      "color": "#5d5d5d",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
+      "id": "obj_1787396501223_2646",
+      "name": "Cube Copy Copy Copy Copy",
+      "type": "cube",
+      "position": {
+        "x": -13.25,
+        "y": 2.643,
+        "z": -15.303
+      },
+      "rotation": {
+        "x": -0.524,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.5,
+        "y": 0.432,
+        "z": 12.5
+      },
+      "color": "#61b03c",
+      "castShadow": true,
+      "receiveShadow": true,
+      "material": "stud_universal",
+      "invertNormals": false,
+      "canCollide": true
+    },
+    {
       "id": "obj_1787142597412",
       "name": "Cube22",
       "type": "cube",
@@ -493,6 +545,34 @@
       "friction": 0,
       "mass": 0.1,
       "material": "stud_universal"
+    },
+    {
+      "id": "obj_1787396411441",
+      "name": "Mesh",
+      "type": "mesh",
+      "position": {
+        "x": -6.699,
+        "y": 0.453,
+        "z": -1.7
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "color": "#ffffff",
+      "material": "model_original",
+      "castShadow": true,
+      "receiveShadow": true,
+      "anchored": true,
+      "canCollide": true,
+      "modelUrl": "http://localhost:3001/assets-files/test_project/3d/rigy.glb?v=1787048534478",
+      "meshPart": "Handle1"
     }
   ],
   "materials": [
