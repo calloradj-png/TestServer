@@ -128,7 +128,8 @@
       "receiveShadow": true,
       "material": "stud_universal",
       "invertNormals": false,
-      "canCollide": true
+      "canCollide": true,
+      "bakedUV": true
     },
     {
       "id": "obj_1787291624940_1403",
@@ -157,8 +158,8 @@
       "canCollide": true,
       "anchored": false,
       "restitution": 0,
-      "mass": 5,
-      "friction": 1
+      "mass": 0.01,
+      "friction": 0
     },
     {
       "id": "obj_1787293984977_8566",
@@ -188,7 +189,7 @@
       "anchored": false,
       "restitution": 0,
       "mass": 1,
-      "friction": 1
+      "friction": 0
     },
     {
       "id": "obj_1787293988289_2265",
@@ -218,7 +219,7 @@
       "anchored": false,
       "restitution": 0,
       "mass": 1,
-      "friction": 1
+      "friction": 0
     },
     {
       "id": "obj_1787293991489_4727",
@@ -248,7 +249,7 @@
       "anchored": false,
       "restitution": 0,
       "mass": 1,
-      "friction": 1
+      "friction": 0
     },
     {
       "id": "obj_1787290915480_2880",
@@ -443,7 +444,7 @@
       "type": "sphere",
       "position": {
         "x": 1.1,
-        "y": 0.875,
+        "y": 50.025,
         "z": -7.9
       },
       "rotation": {
@@ -456,12 +457,13 @@
         "y": 3,
         "z": 3
       },
-      "color": "#ff8c00",
+      "color": "#ffffff",
       "castShadow": true,
       "receiveShadow": true,
       "anchored": false,
       "canCollide": true,
-      "material": "neon"
+      "material": "neon",
+      "restitution": 1
     },
     {
       "id": "obj_1787290758411",
